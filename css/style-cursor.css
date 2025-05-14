@@ -1,0 +1,363 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+   
+   @import url('https://fonts.googleapis.com/css?family=Inconsolata:700&display=swap');
+   @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+   
+   
+  
+
+
+
+*{cursor: url(../images/cursor-moth.png), auto;}
+
+
+
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  text-align: center
+}
+
+.espace {
+    height: 77px;
+    display: block;}
+    
+.space {
+    height: 20px;
+    display: block;}
+    
+.pix {
+  font-family: 'VT323', monospace;
+  font-size: 22px;
+  }
+
+.pix-mini {
+  font-family: 'VT323', monospace;
+  font-size: 10px;
+  }
+
+a{
+ color:white;
+ text-decoration:none;
+  
+  }
+  
+a:hover {
+  color:darkred;
+}
+
+a.red:hover {color:red}
+
+.ared {
+  color:red;
+  text-decoration:none;
+  }
+  
+.ghost {
+  display:block;
+  margin-top:50px;
+  text-align:center;
+  }
+  
+.center {
+  display:inline;
+  text-align:center;
+  }
+  
+.img-insect {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  width:444px;
+  }
+  
+.button {
+  text-align:center;
+  cursor:crosshair;
+  }
+  
+.aside {
+	position: static;
+	width: 50%;
+	margin: 0 auto;
+	overflow: auto;
+}
+	
+	
+	
+table {
+    border-collapse: collapse;
+    font-family: 'Roboto', monospace;
+  	text-align: center;
+  	margin:auto;
+  	font-size:15px;
+    letter-spacing: 7px;
+    width:73%;
+    
+}
+
+th, td {
+  padding: 10px;
+  border:1px solid white;
+}
+
+
+	
+.nav {
+  display:grid;
+  grid-template-columns: 30% 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 15px;
+	float:left;
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+.all {
+ margin: 0 auto;
+ max-width: 1470px;
+ padding: 5px 0px 5px 0px;
+ }
+  
+.nav2 {
+  max-width: 350px;
+ overflow-y: auto;
+ float: left;
+ background-color: #DD470C;
+ border-style: ridge;
+ border-color: #F6B937;
+ border width:5px;
+ color: #1E0029;
+ text-align: center;
+ height:95vh; 
+ scrollbar-width:thin;
+ scrollbar-color:#21100E #DD470C;
+  }
+  
+.icon {
+      width: 50px;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    margin:1px;
+    padding:1px;
+    text-align:center;
+  }
+  
+.sticky-honhon {
+  position:fixed;
+  z-index:10;
+  bottom:10px;
+  margin:10px;
+  
+  }
+  
+  
+.punpun:hover {
+  cursor: url("../images/uhq3.png"), auto!important;
+  }
+  
+
+.collapsible {
+  background-color: #ef0000;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 400px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-family: 'VT323', monospace;
+}
+
+.collapsible-blk {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  width: 400px;
+  border: none;
+  text-align: center;
+  outline: solid 1px;
+  font-size: 20px;
+  font-family: 'VT323', monospace;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.active, .collapsible-blk:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.collapsible-blk:after {
+  content: '⇩';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "⇧";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: black;
+  color:white;
+}
+
+.content-blk {
+  padding: 5 5px;
+  max-height: 0;
+  width: 400px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  color:black;
+}
+
+.behindtab {
+  
+    color: white;
+    font-family: "ms Gothic";
+    font-size: 11px;
+    letter-spacing: 1px;
+    width: 273px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: right;
+    
+    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
+    
+    
+}
+
+.right-poop {
+    color: white;
+    font-family: "ms Gothic";
+    font-size: 11px;
+    letter-spacing: 0px;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    overflow-y: auto;
+    border: 1px solid transparent;
+    text-align: right;
+  }
+
+.blabla-cat {
+  font-size:12px;
+  text-align: start;
+  position:absolute;
+  border:1px solid white;
+  width:300px;
+  height:160px;
+  padding:10px;
+  float:left;
+  margin-top:0px;
+  } 
+
+
+.cursor-eye
+{cursor: url(../images/cursor-eye.png), auto;}
+
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: un; }
+.item3 { grid-area: deux; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'un deux';
+  gap: 2px;
+  background-color: white;
+  padding: 2px;
+}
+
+.grid-container > div {
+  background-color: black;
+  text-align: center;
+  padding:20px 0;
+  font-size: 12px;
+}
+
+.right-ror {
+  font-size:12px;
+  margin:auto;
+  width:444px;
+  height:1000px;
+  padding:10px;
+  }
+
+.border {
+  padding: 10px;
+  border: 1px solid white;
+  width:20%;
+  margin:auto;
+  }
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+.behindtab, .img-insect, .right-poop {
+  position:relative;
+
+  } 
+
+.item-left, .item-main, .item-left {
+  position:relative;
+  }
+  
+.behindtab {
+margin-left:-170px;}
+
+.warmup {
+width:100%}
+
+
+.blabla-cat {
+float:left;
+margin-right:0;
+position:relative;}
+
+.right-ror {
+display:none;
+  }
+  
+.border {
+  padding: 10px;
+  border: 1px solid white;
+  width:100%;
+  }
+
+
+  }
